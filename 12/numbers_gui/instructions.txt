@@ -1,0 +1,32 @@
+2048 loppuprojun dokumentaatio
+
+Pakolliset toiminnot:
+-Siemenluvun kysyminen
+-Voittoluvun kysyminen
+-Ruudukko näytetään
+-Laatikoiden liikuttaminen wasd
+-Laatikot lasketaan yhteen 
+-Peli ilmoittaa voitosta ja häviöstä
+-?? peliä voidaan skaalata ??
+-Pelin pystyy aloittamaan alusta
+
+Lisäominaisuudet: 
+-Eri luvuille omat värit 10p
+-Ajastin 5p 
+-Uuden laatikon lisääminen ja lisääminen hidastetusti 5/15p
+-Kakkosen potenssin tarkistus 5p
+-Taustaväri vaihtuu kun voitto tai häviö 10p
+-Pause nappula 10p
+
+Pelin toiminta: 
+-Syötä voittoluku ja siemenluku. Jos ei syötetä tai syötetty arvo on 0, niin silloin käytetään vakio lukuja. Tällöin voittoluku = 2048 ja siemenluku = .
+-Peli alkaa kun painetaan Start näppäintä, jolloin ruudulle ilmestyy 4 laatikkoa arvolla 2 ja aika alkaa rullaamaan. 
+-Liikuta laatikoita wasd -näppäimillä. 
+-Kun kaksi saman arvoista laatikkoa törmää, ne yhdistyvät yhdeksi laatikoksi jonka arvo on edellisten laatikoiden summa. 
+-Pelin voi pysäyttää milloin vain painamalla Stop näppäintä. Tällöin laatikoita ei voi liikuttaa eikä aika juokse. 
+-Peliä voi taas jatkaa, kun painaa Continue näppäintä. 
+-Pelin voi aloittaa aina alusta painamalla Restart näppäintä.
+-Help näppäin kertoo yksinkertaiset ohjeet
+
+
+
